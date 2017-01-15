@@ -49,6 +49,7 @@ article {
 
 header img {
   width: 100%;
+  max-width: 600px;
 }
 
 header h1 {
