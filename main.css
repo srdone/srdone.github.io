@@ -42,6 +42,11 @@ header {
   transition: height 1s;
 }
 
+article {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 header img {
   width: 100%;
 }
