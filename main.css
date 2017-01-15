@@ -1,0 +1,102 @@
+body {
+  color: #3D3D41;
+  background-color: #FFFFFF;
+}
+
+h1, h2 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+a {
+  color: #787878;
+  text-decoration: none;
+}
+a:hover {
+  color: #454545;
+}
+
+em {
+  font-style: italic;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  width: 100%;
+  height: 100%;
+  background-color: #787878;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  transition: height 1s;
+}
+
+header img {
+  width: 100%;
+}
+
+header h1 {
+  transition: all 1s ease-in-out;
+}
+
+header h2 {
+  transition: all 1s ease-in-out;
+}
+
+header img {
+  transition: visibility 1s, opacity 1s ease-in-out;
+}
+
+header.smaller {
+  height: 50px;
+}
+
+header.smaller h1 {
+  font-size: 1.08em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+header.smaller h2 {
+  font-size: 1.01em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+header.smaller img {
+  visibility: hidden;
+  opacity: 0;
+}
+
+section {
+  padding: 10px;
+}
+
+section:first-of-type {
+  margin-top: 100px;
+}
+
+.technical-details {
+  font-style: italic;
+  font-size: .9em;
+}
+
+/*
+  Colors:
+  #FFFFFF
+  #DCDCE4
+  #ABB5BA
+  #787878
+  #3D3D41
+*/
